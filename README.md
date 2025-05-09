@@ -12,3 +12,6 @@
    - 打开 `Assets/Scenes/Main.unity`
    - 点击Play按钮
 
+## 🖼️ 游戏截图
+
+![主界面](title.png)
