@@ -6,7 +6,11 @@ using UnityEngine;
 public class PipeScript : MonoBehaviour
 {
     public float speed = 0.03f;
-    public bool canMove = true;
+    public bool canMove;
+
+    void Start() {
+        canMove = true;
+    }
     public void RandomHeight()
     {
         float height = Random.Range(-1f, 0.5f);
